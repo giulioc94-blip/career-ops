@@ -16,8 +16,9 @@ Trovare ruoli per il candidato Giulio Curcio Terremoto (Dottore Commercialista, 
 - `modes/_brief.md` compilato per il triage.
 
 ## 4) IN CORSO / PROSSIMO PASSO ESATTO
-- Compenso target non definito: `config/profile.yml` → `compensation.target_range` = "da definire".
-- Prossimo passo: chiedere al candidato il range retributivo e l'evidenza di gestione d'impresa per il ruolo CEO/AD; poi eseguire `node scan.mjs`.
+- Compenso: il candidato indica target alto, non negoziabile verso il basso; cifra non fornita. `target_range` = descrizione qualitativa; nessun hard floor numerico.
+- Evidenza di governo d'impresa dichiarata (2026-11-15): consulente esterno di numerose imprese, 2 incarichi di amministratore di fatto, 2 di revisore unico. Nomi, periodi e settori da completare in `cv.md`.
+- Prossimo passo: chiedere cifra indicativa e dettagli degli incarichi; poi eseguire `node scan.mjs`.
 
 ## 5) FILE MODIFICATI E NOTE TECNICHE
 - Nuovi file utente (gitignored): `cv.md`, `config/profile.yml`, `portals.yml`, `modes/_profile.md`, `modes/_brief.md`.
