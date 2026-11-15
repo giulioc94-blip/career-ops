@@ -19,7 +19,8 @@ Trovare ruoli per il candidato Giulio Curcio Terremoto (Dottore Commercialista, 
 - Compenso: il candidato indica target alto, non negoziabile verso il basso; cifra non fornita. `target_range` = descrizione qualitativa; nessun hard floor numerico.
 - Evidenza di governo d'impresa dichiarata (2026-11-15): consulente esterno di numerose imprese, 2 incarichi di amministratore di fatto, 2 di revisore unico. Nomi, periodi e settori da completare in `cv.md`.
 - Scan eseguito il 2026-11-15: 14873 annunci letti, 0 nuovi. Le 104 aziende in `portals.yml` sono tecniche (template): nessun titolo dei tre archetipi. Prossimo passo: sostituire le fonti con aziende/fonti italiane di finanza, revisione e amministrazione, poi rilanciare `node scan.mjs`.
-- In attesa da candidato: cifra indicativa di compenso e dettagli degli incarichi.
+- Vincolo geografico rimosso: il candidato lavora ovunque nel mondo (`portals.yml` location_filter vuoto; `_brief.md` aggiornato). Rescan: 2 nuove offerte, entrambe non pertinenti (Executive Assistant to the CEO; CEO Office strategy). Da non valutare.
+- In attesa da candidato: dettagli degli incarichi (società, periodi, settori). Compenso: nessuna cifra indicativa, target alto e non negoziabile verso il basso.
 
 ## 5) FILE MODIFICATI E NOTE TECNICHE
 - Nuovi file utente (gitignored): `cv.md`, `config/profile.yml`, `portals.yml`, `modes/_profile.md`, `modes/_brief.md`.
